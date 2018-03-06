@@ -28,12 +28,20 @@
         <meta-data android:name="com.amap.api.v2.apikey" android:value="eb90aee52fcc66bcb0a1e45aebeaa809">
         </meta-data>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".WelcomeActivity" android:theme="@style/AppWelcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".BankActivity">
+        </activity>
+        <activity android:name=".SignInActivity">
+        </activity>
+        <activity android:name=".SignUpActivity">
         </activity>
     </application>
 

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">JianCanDemo</string>
+    <string name="btn1">btn1</string>
+    <string name="btn2">btn2</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="btn_signIn">Sign In</string>
+    <string name="forgotPassword">Forgot your password?</string>
+    <string name="createUsername">Don\'t have an account? Create one.</string>
 </resources>
