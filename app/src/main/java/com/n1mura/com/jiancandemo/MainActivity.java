@@ -1,5 +1,6 @@
 package com.n1mura.com.jiancandemo;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,7 +13,7 @@ import com.amap.api.maps.AMap;
 import com.amap.api.maps.MapView;
 import com.amap.api.maps.TextureMapView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     TextureMapView mMapView = null;
     private WebView webView;
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         //在activity执行onDestroy时执行mMapView.onDestroy()，销毁地图
-        mMapView.onDestroy();
+//        mMapView.onDestroy();
     }
 
     @Override

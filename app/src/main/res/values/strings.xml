@@ -7,4 +7,8 @@
     <string name="btn_signIn">Sign In</string>
     <string name="forgotPassword">Forgot your password?</string>
     <string name="createUsername">Don\'t have an account? Create one.</string>
+    <string name="tip_account_empty">Username is empty.</string>
+    <string name="tip_password_can_not_be_empty">Password is empty.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

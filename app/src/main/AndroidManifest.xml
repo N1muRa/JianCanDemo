@@ -35,14 +35,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-        </activity>
-        <activity android:name=".BankActivity">
-        </activity>
-        <activity android:name=".SignInActivity">
-        </activity>
-        <activity android:name=".SignUpActivity">
-        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".BankActivity"></activity>
+        <activity android:name=".SignInActivity"></activity>
+        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".ShopActivity"></activity>
+        <activity android:name=".CreateAccountActivity"></activity>
     </application>
 
 </manifest>
